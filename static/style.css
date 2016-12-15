@@ -1,0 +1,190 @@
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 860px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.top {
+    height: 60px;
+    overflow: hidden;
+}
+
+/* Оформляем меню */
+.menu {
+    float: right; 
+}
+
+.menu ul li {
+    display: inline;
+    font-size: 14pt;
+    font-color: black;
+    margin: 10px;
+}
+
+/* Оформляем общий контентный блок */
+
+.content {
+    padding: 10px;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+    min-height: 250px;
+}
+
+
+/* --- Стиль главной страницы --- */
+/* Офомляем блок аватара с тенью */
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 190px;
+  height: 190px;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  -webkit-box-shadow: 10px 10px 11px 3px rgba(0,0,0,0.3);
+  box-shadow: 10px 10px 11px 3px rgba(0,0,0,0.3);
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.avatar {
+    width: 190px;
+    height: 190px;
+}
+
+/* Оформляем визитку */
+
+#card {
+    margin-left: 30%; 
+    margin-top: 10px;
+    font-size: 14pt;
+    line-height: 1.5;
+}
+
+.card_field {
+    float: left;
+    color: #959595;
+    margin-right: 90px;
+}
+
+/* оформляем блок "Обо мне" */
+#about_me {
+    font-size: 14pt;
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+/* оформляем блок "Мои навыки" */
+
+#skills {
+    font-size: 16pt;
+    font-weight: bolder; 
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+#chart li.one {
+    width: 74px;
+}
+
+#chart li.two {
+    width: 138px;
+}
+
+#chart li.three {
+    width: 214px;
+}
+
+#chart li.four {
+    width: 292px;
+}
+
+#chart li.five {
+    width: 370px;
+}
+
+#chart li {
+    height: 35px;
+    color: #000;
+    font-style: italic;
+    line-height: 35px;
+    padding: 0 10px 0 10px;
+    margin: 0 0 5px 0;
+    background: #cccdce;
+}
+
+/* Footer */
+.copyright {
+    margin-top: 25px;
+}
+
+/* стиль Образование и Опыт, если нет информации*/
+
+.no_information img {
+    margin-top: 30px;
+    margin-left: 398px;
+}
+
+.no_information p {
+    margin-left: 300px;
+    font-size: 14pt;
+
+}
+
+
+/* Оформляем описание опыта работы*/
+.experience {
+    font-size: 14pt;
+    color: #959595;
+    line-height: 2.5;
+}
+
+.wplace {
+    font-size: 18pt;
+}
+
+.wpost {
+    font-size: 14pt;
+    color: #959595;
+    line-height: 2.5;
+}
+
+.wdesc {
+    font-size: 14pt;
+    
+}
+
+/* Оформляем описание образования*/
+.splace {
+    font-size: 16pt;
+    line-height: 2.5;
+}
+
+.s_years {
+    font-size: 12pt;
+    color: #959595;
+}
+
+.s_dep {
+    font-size: 14pt;
+    line-height: 2.5;
+}
+
+.s_spec {
+    font-size: 14pt;
+    
+}
