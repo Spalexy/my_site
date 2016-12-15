@@ -18,14 +18,6 @@ def job(request):
 	return render_to_response('job.html', {'job_places':job_places})
 
 def learn(request):
-	studing_places = [
-		{
-		'name': 'РГУПС',
-		'studing_years': '2005-2010',
-		'department': 'Автоматика, телемеханика и связь на ж.-д. т.',
-		'specialisation': 'Автоматика и телемеханика на ж.-д. т.'
-		}
-		]
-		
+	studing_places = St_place.objects.all()
 	return render_to_response('learn.html', {'studing_places':studing_places})
 
