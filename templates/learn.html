@@ -11,9 +11,10 @@
 		{% endblock %}
 	{% endif %}
 	{% for sp in studing_places %}
-		<div class="splace">{{sp.name}}</div>
-		<div class="s_years">{{sp.studing_years}}</div>
+		<div class="splace">{{sp.st_place}}</div>
+		<div class="s_years">{{sp.st_time}}</div>
 		<div class="s_dep"><em>Факультет: </em>{{sp.department}}</div>
 		<div class="s_spec"><em>Специальность: </em>{{sp.specialisation}}<br><br><br><br></div>
 	{% endfor %}
 {% endblock %}
+
