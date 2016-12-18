@@ -11,8 +11,8 @@
 		{% endblock %}
 	{% endif %}
 	{% for jp in job_places %}
-		<div class="experience">{{jp.j_time}}</div>
-		<div class="wplace">{{jp.j_place}}</div>
+		<div class="experience">{{jp.period}}</div>
+		<div class="wplace">{{jp.j_name.name}}</div>
 		<div class="wpost">{{jp.position}}</div>
 		<div class="wdesc">{{jp.resp}}<br><br><br><br></div>
 	{% endfor %}

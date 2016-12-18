@@ -1,6 +1,5 @@
 from django.shortcuts import render, render_to_response
-from .models import Job_place
-from .models import St_place
+from .models import Job_place, St_place, Organisation
 
 # Create your views here.
 def index(request):
