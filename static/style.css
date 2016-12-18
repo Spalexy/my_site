@@ -89,12 +89,16 @@ body {
 #skills {
     font-size: 16pt;
     font-weight: bolder; 
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 20px;
 }
 
 ul {
     list-style: none;
+}
+
+#chart {
+    padding-left: 10px;
 }
 
 #chart li.one {
