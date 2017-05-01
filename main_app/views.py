@@ -21,3 +21,7 @@ def learn(request):
 	studing_places = St_place.objects.all()
 	return render_to_response('learn.html', {'studing_places':studing_places})
 
+def company_card(request):
+	return render_to_response('company_card.html')
+
+

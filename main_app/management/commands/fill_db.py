@@ -45,15 +45,6 @@ class Command(BaseCommand):
             job['j_name'] = organisation
             job = Job_place.objects.create(**job)
 
-        # Work.objects.all().delete()
-        # for work in works:
-        #     org_name = work["organization"]
-        #     # Получаем организацию по имени
-        #     organization = Organization.objects.get(name=org_name)
-        #     # Заменяем название организации объектом
-        #     work['organization'] = organization
-        #     work = Work(**work)
-        #     work.save()
 
         St_place.objects.all().delete()
         for study in st_places:

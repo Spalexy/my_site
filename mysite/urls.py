@@ -18,10 +18,12 @@ from django.contrib import admin
 from main_app.views import index
 from main_app.views import job
 from main_app.views import learn
+from main_app.views import company_card
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', index, name = "index"),
     url(r'^job/$', job, name="job"),
     url(r'^learn/$', learn, name= "learn"),
+    url(r'^company_card/$', company_card, name= "company_card"),
 ]

@@ -18,6 +18,10 @@ class St_place(models.Model):
     department = models.CharField(verbose_name='Факультет', max_length=128)
     specialisation = models.CharField(verbose_name='Специальность', max_length=128)
 
+class Com_card(models.Model):
+    j_name = models.ForeignKey(Organisation, verbose_name='Организация', null=True)
+    information = models.TextField(verbose_name='О компании')
+
 
     
 
